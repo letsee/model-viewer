@@ -314,7 +314,7 @@ configuration or device capabilities');
       // modelUrl can contain title/link/sound etc.
       params.set('mode', 'ar_preferred');
       if (!params.has('disable_occlusion')) {
-        params.set('disable_occlusion', 'true');
+        params.set('disable_occlusion', 'false');
       }
       if (this.arScale === 'fixed') {
         params.set('resizable', 'false');
